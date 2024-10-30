@@ -1,3 +1,5 @@
+package Logica;
+
 public class Papel extends Actor {
     public String personaje;
     public int a_no;

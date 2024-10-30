@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Gui_Proyecto.Eleccion_H_o_A">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="center:d:grow"/>
+    <colspec value="fill:d:grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="169" y="157" width="1246" height="820"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <doubleBuffered value="false"/>
+      <enabled value="false"/>
+      <preferredSize width="1980" height="1080"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <hspacer id="9f78">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="6a54">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+      </hspacer>
+      <component id="31399" class="javax.swing.JButton" binding="HÉROESButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1761514"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <defaultCapable value="true"/>
+          <doubleBuffered value="false"/>
+          <focusPainted value="false"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <focusable value="false"/>
+          <font name="Manchester City UCL 23-24 Inlin" size="48"/>
+          <foreground color="-393217"/>
+          <hideActionText value="false"/>
+          <inheritsPopupMenu value="false"/>
+          <opaque value="true"/>
+          <preferredSize width="240" height="90"/>
+          <text value="HÉROES"/>
+        </properties>
+      </component>
+      <component id="b9770" class="javax.swing.JButton" binding="ANTIHÉROESButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-12545109"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusCycleRoot value="false"/>
+          <focusPainted value="false"/>
+          <font name="Manchester City UCL 23-24 Inlin" size="48"/>
+          <foreground color="-1"/>
+          <opaque value="true"/>
+          <preferredSize width="240" height="90"/>
+          <text value="ANTIHÉROES"/>
+        </properties>
+        <clientProperties>
+          <hideActionText class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+    </children>
+  </grid>
+</form>

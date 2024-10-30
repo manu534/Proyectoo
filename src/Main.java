@@ -1,5 +1,7 @@
-public class Main {
+public class Main  {
     public static void main(String[] args) {
-        System.out.println("Hello worlds!");
+        Pantalla primero = new Pantalla();
+        primero.setVisible(true);
+        primero.setLocationRelativeTo(null);
     }
 }

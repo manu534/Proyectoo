@@ -1,4 +1,6 @@
-public class Personaje extends Papel{
+package Logica;
+
+public class Personaje extends Papel {
     private String name;
     private String age;
 
