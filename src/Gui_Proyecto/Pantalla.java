@@ -1,3 +1,5 @@
+package Gui_Proyecto;
+
 import javax.swing.*;
 public class Pantalla extends JFrame {
     private JPanel panel1;
